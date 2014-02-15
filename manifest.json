@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Chroma",
+  "description": "Sets the color of Philips Hue lightbulbs based on the background color of the current page.",
+  "version": "1.0",
+  "permissions": [ "tabs", "storage", "<all_urls>" ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
